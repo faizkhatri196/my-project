@@ -8,7 +8,7 @@ body{
     text-align: center;
 }
 .container{
-    height: 79vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
-
 }
 
 .box{
@@ -40,14 +39,16 @@ body{
     background-color: #191913;
     color: white;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 #new-btn{
-     padding: 1rem;
+    padding: 1rem;
     font-size: 1.25rem;
     background-color: #191913;
     color: white;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 
@@ -56,13 +57,24 @@ body{
     font-size: 8vmin;
 }
 
-.msg-container{
+#msg-container{
     height: 20vmin;
+}
+
+.controls {
+    margin-top: 1rem;
+}
+
+#difficulty {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #191913;
+    background-color: white;
+    cursor: pointer;
 }
 
 
 .hide{
     display: none;
 }
-
-
